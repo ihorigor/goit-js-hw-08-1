@@ -5,12 +5,6 @@ const formData = {};
 
 const formEl = document.querySelector('form');
 // console.log(formEl);
-const emailEl = document.querySelector('input');
-// console.log(emailEl);
-const textareaEl = document.querySelector('textarea');
-// console.log(textareaEl);
-const buttonEl = document.querySelector('button');
-// console.log(buttonEl);
 
 formEl.addEventListener('submit', onFormSubmit);
 formEl.addEventListener('input', throttle(onformEl, 500));
